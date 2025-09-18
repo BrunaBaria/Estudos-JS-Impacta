@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigmas de Programação</title>
+    <h2>Paradigmas de Programação</h2>
+    <p>Exercícios para consolidação do Paradigma de Eventos</p>
+</head>
+<body>
+    <section>
+        <h3>Funções:</h3>
+            <p>Exercício 1:</p>
+            <p>Vamos criar uma função simples para que possa ser executada. Ao ser executada esta primeira função possa realizar o cálculo - a partir de um argumento numérico o valor de uma porcentagem que também será oferecido como segundo argumento dessa função</p>
+           
+            Informe um valor: <input type="number" name="valor" required="required" id="valor" min="0" ></br>
+            Informe um percentual:<input type="number" name="percentual" id="percentual" min="0">%</br>
+            <input type="button" value="calcular" onclick="calcularPorcentagem()">
+            <div id="res1"></div>
+
+            <p>Exercício 2:</p>
+            <p>Criar e executar uma segunda função para obter uma conversão de valores de temperatura - medidas em graus. Converter de Fahrenheit para Celsius e uma outra para que faz a conversão de Celsius para Fahrenheit</p>
+            Informe uma Temperatura em graus Celsius: <input type="number" name="tempc" id="tempc" min="0" >°C</br>
+            <input type="button" value="converter para Fahrenheit" onclick="converterFahrenheit()">
+            <div id="resF"></div></br>
+
+            Informe uma Temperatura em Fahrenheit: <input type="number" name="tempf" id="tempf"min="0">°F</br>
+            <input type="button" value="converter para Celsius" onclick="converterCelsius()">
+            <div id="resC"></div>
+
+            <p>Exercício 3:</p>
+            <p>Criar uma nova função para retornar um valor booleano - verdadeiro ou falso para verificar e informar se um determinado numero atribuido a uma variavel é primo</p>
+           
+            Informe um numero: <input type="number" name="numero" id="numero" min="0" ></br>
+            <input type="button" value="Verificar se o número é primo" onclick="numeroPrimo()"></br>
+            <div id="resPrimo"></div>
+
+    </section>
+    
+    <script src="exercicios_functions.js"></script>
+ 
+    <footer>Exercícios executados por Bruna Camila</footer>
+</body>
+</html>
+

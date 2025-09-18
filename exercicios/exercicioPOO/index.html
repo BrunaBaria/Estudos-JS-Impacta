@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício POO em JS</title>
+</head>
+<body>
+    <section>
+        <h3>Classes e Objetos:</h3>
+        <h4>Sistema de Gerenciamento de Produtos</h4>
+        <p>Desenvolva um sistema de gerenciamento de produtos em JavaScript utilizando classes. O sistema deve ser capaz de realizar as seguintes operações:
+        </p>
+        <p>- Criar uma classe Produto com as seguintes propriedades privadas: (** a partir do ES11 - EcmaScript 2020 que para definir propriedades privadas convencionou-se usar o caracter # e, também, é possivel fazer uso de qualquer método publico para lidar com encapsulamento.)</br>
+                id: um identificador único do produto (número inteiro)</br>
+                nome: o nome do produto (string)</br>
+                preco: o preço do produto (número decimal)</br>
+                estoque: a quantidade em estoque do produto (número inteiro)</br>
+                Implementar um construtor na classe Produto que permita inicializar as propriedades id, nome, preco e estoque no momento da criação do objeto.</br>
+        </p>
+        <p>Implementar métodos na classe Produto para:</br>
+                Obter o ID do produto.</br>
+                Obter o nome do produto.</br>
+                Obter o preço do produto.</br>
+                Obter a quantidade em estoque do produto.</br>
+                Atualizar o preço do produto.</br>
+                Adicionar unidades ao estoque do produto.</br>
+                Remover unidades do estoque do produto.</br>
+        </p>
+        <p>Criar instâncias da classe Produto e realizar operações como adicionar unidades ao estoque, remover unidades do estoque e atualizar o preço.
+            Testar o sistema criado com exemplos de uso, demonstrando a funcionalidade de todas as operações implementadas.</br>
+                
+            Crie, também, uma classe chamada ProdutoImportado, que herda as propriedades e métodos da classe Produto, e adiciona uma nova propriedade específica para produtos importados, como por exemplo, o país de origem e taxa de importação de um determinado produto.
+        </p>
+        <input type="button" value="Informações do Produto 1" onclick="alert(produto.resumoProduto())"></br>
+        </br>
+        <input type="button" value="Informações do Produto 2" onclick="confirm(produtoImportado.resumoProduto())"></br>
+        </br>
+        <input type="button" value="Adicionar +1 ao estoque do Produto 1" onclick="alert(`${produto.adicionarEstoque(1)} foi adicionado ao estoque. Veja a atualização no botão de Informações deste Produto`)">
+    
+        <input type="button" value="Remover -1 do estoque do Produto 1" onclick="alert(`${produto.removerEstoque(1)} foram revomidos do estoque. Veja a atualização no botão de Informações deste Produto`)"></br>
+        </br>
+
+        </br>
+    </section>
+
+    <script src="exercicios_classeObjeto.js"></script>
+    </br>
+    <footer>Exercícios executados por Bruna Camila</footer>
+</body>
+</html>
