@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width=device-width,inicial-scale=1.0"></meta>
+    <title>Word Puzzle Game</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Permanent+Marker&v2"><!-- Família de fonte importada -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,regular,bold&v2"><!-- Família de fonte importada -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> <!-- Arquivo CSS vinculado -->
+    <script src="js/jquery.js"></script> <!-- Biblioteca jQuery vinculada-->
+    <script src="js/buzz.js"></script><!-- Biblioteca de Sons do JS vinculada-->
+    <script src="js/ui.jquery.js"></script> <!-- coleção de widget jQuery para efeitos visuais incluida-->
+    <script src="js/demo.js"></script><!-- Arquivo pincipal do projeto -->
+</head>
+
+<body>
+    <div id="header"><!-- Cabeçalho -->
+        <p>Game Learning English - Word Puzzle</p>
+    </div>
+    
+    <div id="container" > <!-- contrrução do game-->
+        <img id="picture" src="img/koala.png"> <!-- espaço para imagem do animal-->
+        <ul id="models"></ul> <!-- espaço para a construção do model -->
+        <ul id="letters"></ul> <!-- espaço para a construção das letras arrastáveis-->
+        
+        <a href="#" id="previous"><</a>
+        <a href="#" id="next">></a>
+    </div>
+    
+    <div id="footer"><!-- rodapé -->
+        <p>Demo by Garmd Motion Code</a></p>
+        <a href="#" id="level">easy</a><!-- Seletor de nível de dificuldade-->
+    </div>
+    
+    <div id="warning"><!-- div de arquivo não suportado -->
+        Your browser doesn't support<br>the HTML5 audio element.<br><a href="http://www.google.com/chrome/">Please upgrade!</a>
+    </div>
+</body>
+</html>
